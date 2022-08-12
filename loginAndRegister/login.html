@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../loginAndRegister/styles/global.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body style="background-color: #f8f8f8">
+    <div
+      class="container col-11 col-md-9"
+      id="form-container"
+      style="
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+        margin: 25px auto;
+        padding: 25px;
+      "
+    >
+      <div class="row align-items-center gx-5" style="align-content:center; height: 100%;">
+        <div class="col-md-6 order-md-2">
+          <h2 style="font-weight: 900; margin-bottom: 30px">
+            Faça o login para continuar.
+          </h2>
+          <form style="padding-bottom: 150px">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+                id="email"
+                name="email"
+                placeholder="Digite o seu e-mail"
+              />
+              <label for="email" class="form-label" style="color: #ccc">
+                Digite o seu email</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="senha"
+                class="form-control"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+                id="senha"
+                name="senha"
+                placeholder="Digite a sua senha"
+              />
+              <label for="email" class="form-label" style="color: #ccc">
+                Digite a sua senha</label
+              >
+            </div>
+            <div>
+              <input
+                type="submit"
+                class="btn btn-primary"
+                style="background-color: #6c63ff; border-color: #6c63ff"
+                value="Entrar"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <div class="col-12">
+            <img src="img/form.svg" alt="Entrar no sistema" class="img-fluid" />
+          </div>
+          <div class="col-12" id="link-container" style="text-align: center; padding-top: 50px;">
+            <a href="register.html" style="color: #222; transition: 0.5s; "
+              >Ainda não tenho cadastro.</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

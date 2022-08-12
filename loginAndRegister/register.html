@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../loginAndRegister/styles/global.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body style="background-color: #f8f8f8">
+    <div
+      class="container col-11 col-md-9"
+      id="form-container"
+      style="
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0.5px 10px 15px rgba(0, 0, 0, 0.2);
+        margin: 25px auto;
+        padding: 25px;
+      "
+
+    >
+      <div class="row gx-5">
+        <div class="col-md-6">
+          <h2>Realize seu cadastro!</h2>
+          <form>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Digite o seu nome"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+              />
+              <label for="name" class="form-label" style="color: #ccc">
+                Digite seu nome</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                name="lastname"
+                placeholder="Digite o seu nome"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+              />
+              <label for="lastname" class="form-label" style="color: #ccc">
+                Digite seu sobrenome</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Insira seu e-mail"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+              />
+              <label for="email" class="form-label" style="color: #ccc">
+                Insira seu e-mail</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+                placeholder="Insira sua senha"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+              />
+              <label for="password" class="form-label" style="color: #ccc">
+                Insira sua senha</label
+              >
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="confirmpassword"
+                name="confirmpassword"
+                placeholder="Confirme sua senha"
+                style="
+                  border: none;
+                  border-bottom: 1px solid;
+                  border-radius: 0;
+                  color: #ccc;
+                  box-shadow: none;
+                "
+              />
+              <label
+                for="confirmpassword"
+                class="form-label"
+                style="color: #ccc"
+              >
+                Confirme sua senha</label
+              >
+            </div>
+            <div class="mb-3">
+              <div class="for-check mb-2">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  value=""
+                  id="agree-form"
+                  name="agree-form"
+                />
+                <label for="agree-form" class="form-check-label">
+                  Você aceita os
+                  <a href="#" style="color: #222; transition: 0.5s">
+                    termos de serviço</a
+                  >?</label>
+              </div>
+              <div class="for-check mb-2">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  checked
+                  id="newsletter"
+                  name="newsletter"
+                />
+                <label for="newsletter" class="form-check-label"> Deseja receber notificações?</label>
+              </div>
+              <div>
+                <input
+                  type="submit"
+                  class="btn btn-primary"
+                  style="background-color: #6c63ff; border-color: #6c63ff"
+                  value="Cadastrar"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 >
+          <div class="row-align-items-center">
+            <div class="col-12">
+              <img
+                src="img/fillForm.svg"
+                alt="Tela de Registro"
+                class="img-fluid"
+              />
+            </div>
+            <div
+              class="col-12"
+              id="link-container"
+              style="text-align: center; padding-top: 50px"
+            >
+              <a href="login.html" style="color: #222; transition: 0.5s"
+                >Já tenho uma conta!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
